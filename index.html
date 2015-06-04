@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<title>Skyliner</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" >
+	<meta name="description" content="">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.less">
+	<link rel="stylesheet" href="css/nivo-slider.css">
+	<script src="js/less.min.js"></script>
+	<script src="js/modernizr-2.8.3.min.js"></script>	
+</head>
+<body>
+	<div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider">
+            <img src="images/slide.jpg" data-thumb="images/slide.jpg" alt="" title="Skyliner F25">
+            <img src="images/slide-2.jpg" data-thumb="images/slide-2.jpg" alt="" title="Яхта 1">
+            <img src="images/slide.jpg" data-thumb="images/slide.jpg" alt="" title="Яхта 2">
+            <img src="images/slide-2.jpg" data-thumb="images/slide-2.jpg" alt="" title="Яхта 3">
+        </div>
+    </div>
+    <div class="content">
+	    <div class="top-block">
+	    	<div class="container clearfix">
+	    		<div class="logo">
+	    			<div class="logo-cell">
+		    			<a href="#">
+		    				<img src="images/logo.png" alt="">
+		    			</a>
+	    			</div>
+	    		</div>
+	    		<div class="top-list">
+	    			<div class="top-list-cell">
+		    			<ul class="clearfix">
+		    				<li>
+		    					<a href="#">Новости и события</a>
+		    					<span>|</span>
+		    				</li>
+		    				<li>
+		    					<a href="#">Выставки и мероприятия </a>
+		    					<span>|</span>
+		    				</li>
+		    				<li><a href="#">Яхты на заказ</a></li>
+		    			</ul>
+	    			</div>
+	    		</div>
+	    		<div class="telephone">
+	    			<div class="tel-cell">
+	    				+7 (495) 123-45-67
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <nav class="nav">
+	    	<div class="nav-block">
+		    	<div class="container">
+		    		<ul class="clearfix">
+		    			<li><a href="#">Яхты в наличии</a></li>
+		    			<li><a href="#">Аренда</a></li>
+		    			<li><a href="#"> Менеджмент</a></li>
+		    			<li><a href="#">О компании</a></li>
+		    			<li><a href="#">Контакты</a></li>
+		    		</ul>
+		    	</div>
+	    	</div>
+	    </nav>
+	    <div class="arends">
+	    	<div class="container">
+	    		<a class="arend-link">Взять в аренду на выходные</a>
+	    		<p>на эксклюзивных условиях</p>
+	    	</div>
+	    </div>
+	    <div class="favorites clearfix">
+	    	<a class="fav-link">
+	    		<img src="images/favorites.png" alt="">
+	    	</a>
+	    	<div class="fav-content">
+	    		<div class="fav-block">
+	    			<a href="#">
+	    				<img src="images/fav.png" alt="">
+	    			</a>
+	    			<p>
+	    				<a href="#">
+	    					Princess 26
+	    				</a>
+	    			</p>
+	    		</div>
+	    		<div class="fav-block">
+	    			<a href="#">
+	    				<img src="images/fav.png" alt="">
+	    			</a>
+	    			<p>
+	    				<a href="#">
+	    					Princess 26
+	    				</a>
+	    			</p>
+	    		</div>
+	    	</div>
+	    </div>
+
+    </div>
+    <footer>
+    	<div class="footer-block">
+    		2014 © SpringYachts.ru <br>
+			Разработано <a href="#">Safrasoft</a>
+    	</div>
+    </footer>
+
+<div class="form-mask"></div>
+<div class="modal">
+	<div class="closed"></div>
+	<form>
+		 <fieldset>
+		 	<div class="title">
+		 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis, maxime perferendis.
+		 	</div>
+		 	<div class="input-block">
+		 		<input type="text">
+		 	</div>
+		 	<div class="input-block">
+		 		<input type="text">
+		 	</div>
+		 	<div class="input-block">
+		 		<input type="submit" value="Текст кнопки">
+		 	</div>
+		 </fieldset>
+	</form>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+           effect: 'fade',
+           pauseTime: 8000,
+           pauseOnHover: false,
+           prevText: "",
+           nextText: ""   
+            })
+
+    });
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>

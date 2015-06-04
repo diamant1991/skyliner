@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Philosopher';
+    src: url('../fonts/Philosopher.eot');
+    src: url('../fonts/Philosopher.eot') format('embedded-opentype'),
+         url('../fonts/Philosopher.woff2') format('woff2'),
+         url('../fonts/Philosopher.woff') format('woff'),
+         url('../fonts/Philosopher.ttf') format('truetype'),
+         url('../fonts/Philosopher.svg#Philosopher') format('svg');
+}
