@@ -7,3 +7,39 @@
          url('../fonts/Philosopher.ttf') format('truetype'),
          url('../fonts/Philosopher.svg#Philosopher') format('svg');
 }
+@font-face {
+    font-family: 'MyriadProBoldCond';
+    src: url('../fonts/MyriadProBoldCond.eot');
+    src: url('../fonts/MyriadProBoldCond.eot') format('embedded-opentype'),
+         url('../fonts/MyriadProBoldCond.woff2') format('woff2'),
+         url('../fonts/MyriadProBoldCond.woff') format('woff'),
+         url('../fonts/MyriadProBoldCond.ttf') format('truetype'),
+         url('../fonts/MyriadProBoldCond.svg#MyriadProBoldCond') format('svg');
+}
+@font-face {
+    font-family: 'MyriadProIt';
+    src: url('../fonts/MyriadProIt.eot');
+    src: url('../fonts/MyriadProIt.eot') format('embedded-opentype'),
+         url('../fonts/MyriadProIt.woff2') format('woff2'),
+         url('../fonts/MyriadProIt.woff') format('woff'),
+         url('../fonts/MyriadProIt.ttf') format('truetype'),
+         url('../fonts/MyriadProIt.svg#MyriadProIt') format('svg');
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadProRegular.eot');
+    src: url('../fonts/MyriadProRegular.eot') format('embedded-opentype'),
+         url('../fonts/MyriadProRegular.woff2') format('woff2'),
+         url('../fonts/MyriadProRegular.woff') format('woff'),
+         url('../fonts/MyriadProRegular.ttf') format('truetype'),
+         url('../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+@font-face {
+    font-family: 'MyriadProSemibold';
+    src: url('../fonts/MyriadProSemibold.eot');
+    src: url('../fonts/MyriadProSemibold.eot') format('embedded-opentype'),
+         url('../fonts/MyriadProSemibold.woff2') format('woff2'),
+         url('../fonts/MyriadProSemibold.woff') format('woff'),
+         url('../fonts/MyriadProSemibold.ttf') format('truetype'),
+         url('../fonts/MyriadProSemibold.svg#MyriadProSemibold') format('svg');
+}

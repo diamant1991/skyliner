@@ -65,7 +65,16 @@
 		    		<ul class="clearfix">
 		    			<li><a href="#">Яхты в наличии</a></li>
 		    			<li><a href="#">Аренда</a></li>
-		    			<li><a href="#"> Менеджмент</a></li>
+		    			<li>
+		    				<a href="#">Менеджмент</a>
+		    				<ul class="drop-child">
+		    					<li><a href="#">Хранение</a></li>
+		    					<li><a href="#">СТрахование</a></li>
+		    					<li><a href="#">Стоянка</a></li>
+		    					<li><a href="#">Экипаж</a></li>
+		    					<li><a href="#">Продать яхту</a></li>
+		    				</ul>
+		    			</li>
 		    			<li><a href="#">О компании</a></li>
 		    			<li><a href="#">Контакты</a></li>
 		    		</ul>
@@ -115,21 +124,34 @@
     </footer>
 
 <div class="form-mask"></div>
-<div class="modal">
-	<div class="closed"></div>
+<div class="modal leave-modal">
+	<div class="title">Оставить заявку</div>
 	<form>
 		 <fieldset>
-		 	<div class="title">
-		 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis, maxime perferendis.
+		 	<div class="input-block">
+		 		<input type="text" placeholder="Ваше имя">
 		 	</div>
 		 	<div class="input-block">
-		 		<input type="text">
+		 		<input type="text" placeholder="Телефон">
 		 	</div>
 		 	<div class="input-block">
-		 		<input type="text">
+		 		<input type="text" placeholder="Email">
 		 	</div>
 		 	<div class="input-block">
-		 		<input type="submit" value="Текст кнопки">
+		 		<input type="submit" value="Отправить">
+		 	</div>
+		 </fieldset>
+	</form>
+</div>
+<div class="modal suc-modal">
+	<div class="title">Оставить заявку</div>
+	<div class="suc-text">
+ 		Ваша заявка успешно <br>отправлена. <br>Мы скоро Вам<br> перезвоним.
+ 	</div>
+	<form>
+		 <fieldset>
+		 	<div class="input-block">
+		 		<input type="submit" value="ОК" class="ok-btn">
 		 	</div>
 		 </fieldset>
 	</form>

@@ -10,11 +10,12 @@ $( document ).ready(function() {
 
 	$('.fav-link').click(function(){
 		$(this).parent('.favorites').toggleClass('favorites_open');
+		
 	})
 
-	$('.arend-link').click(function(){
+	$('.arend-link,.leave-app').click(function(){
     	$('.form-mask').fadeIn(400);
-    	$('.modal').fadeIn(400);
+    	$('.leave-modal').fadeIn(400);
     })
 
     $('.form-mask,.closed').click(function(){
