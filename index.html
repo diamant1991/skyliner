@@ -21,11 +21,31 @@
 <body>
 	<div class="slider-wrapper theme-default">
         <div id="slider" class="nivoSlider">
-            <img src="images/slide.jpg" data-thumb="images/slide.jpg" alt="" title="Skyliner F25">
-            <img src="images/slide-2.jpg" data-thumb="images/slide-2.jpg" alt="" title="Яхта 1">
-            <img src="images/slide.jpg" data-thumb="images/slide.jpg" alt="" title="Яхта 2">
-            <img src="images/slide-2.jpg" data-thumb="images/slide-2.jpg" alt="" title="Яхта 3">
+            <img src="images/slide.jpg" data-thumb="images/slide.jpg" alt="" title="#slide-caption-1">
+            <img src="images/slide-2.jpg" data-thumb="images/slide-2.jpg" alt="" title="#slide-caption-2">
+            <img src="images/slide.jpg" data-thumb="images/slide.jpg" alt="" title="#slide-caption-3">
+            <img src="images/slide-2.jpg" data-thumb="images/slide-2.jpg" alt="" title="#slide-caption-4">
         </div>
+        <div id="slide-caption-1" class="nivo-html-caption">
+			<h2>Выставка яхт</h2>
+			<p class="arends-link">Взять в аренду на выходные</p>
+			<p>Эксклюзивное предложение для наших <br> партнеров</p>
+		</div>
+		<div id="slide-caption-2" class="nivo-html-caption">
+			<h2>Заголовок 2</h2>
+			<p class="arends-link">Взять в аренду на выходные</p>
+			<p>Эксклюзивное предложение для наших <br> партнеров</p>
+		</div>
+		<div id="slide-caption-3" class="nivo-html-caption">
+			<h2>Заголовок 3</h2>
+			<p class="arends-link">Взять в аренду на выходные</p>
+			<p>Эксклюзивное предложение для наших <br> партнеров</p>
+		</div>
+		<div id="slide-caption-4" class="nivo-html-caption">
+			<h2>Заголовок 4</h2>
+			<p class="arends-link">Взять в аренду на выходные</p>
+			<p>Эксклюзивное предложение для наших <br> партнеров</p>
+		</div>
     </div>
     <div class="content">
 	    <div class="top-block">
@@ -81,14 +101,6 @@
 		    	</div>
 	    	</div>
 	    </nav>
-	    <div class="arends">
-	    	<div class="container">
-	    		<div class="arend-cell">
-	    			<a class="arend-link">Взять в аренду на выходные</a>
-	    		</div>
-	    		<p>на эксклюзивных условиях</p>
-	    	</div>
-	    </div>
 	    <div class="favorites clearfix">
 	    	<a class="fav-link">
 	    		<img src="images/favorites.png" alt="">
@@ -109,33 +121,32 @@
 	    </div>
 
     </div>
-    <footer>
-    	<div class="footer-block">
-    		2014 © SpringYachts.ru <br>
-			Разработано <a href="#">Dvision</a>
-    	</div>
-    </footer>
+    <div class="footer-container footer-fixed">
+		2014 © SpringYachts.ru <br>
+		Разработано <a href="#">Dvision</a>
+	</div>
 
 <div class="form-mask"></div>
 <div class="modal leave-modal">
-	<div class="title">Оставить заявку</div>
+	<div class="closed"></div>
 	<form>
 		 <fieldset>
-		 	<div class="input-block">
-		 		<input type="text" placeholder="Ваше имя">
+		 	<div class="title">
+		 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis, maxime perferendis.
 		 	</div>
 		 	<div class="input-block">
-		 		<input type="text" placeholder="Телефон">
+		 		<input type="text">
 		 	</div>
 		 	<div class="input-block">
-		 		<input type="text" placeholder="Email">
+		 		<input type="text">
 		 	</div>
 		 	<div class="input-block">
-		 		<input type="submit" value="Отправить">
+		 		<input type="submit" value="Текст кнопки">
 		 	</div>
 		 </fieldset>
 	</form>
 </div>
+
 <div class="modal suc-modal">
 	<div class="title">Оставить заявку</div>
 	<div class="suc-text">
@@ -159,7 +170,7 @@
            pauseTime: 8000,
            pauseOnHover: false,
            prevText: "",
-           nextText: ""   
+           nextText: ""
             })
 
     });

@@ -83,30 +83,35 @@
 
 .nivo-caption {
   position: absolute;
-  width: 980px !important;
+  width: 490px !important;
   font-family: 'Philosopher' !important;
   text-align: center;
   left: 50%;
-  margin-left: -490px;
+  margin-left: -245px;
   top: 160px;
   color: white;
-  font-size: 60px;
-  width: 100%;
   z-index: 8;
-  padding: 5px 10px;
+  padding: 30px 10px;
   overflow: hidden;
   display: none;
   -webkit-box-sizing: border-box;
-  /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;
-  /* Firefox, other Gecko */
   box-sizing: border-box;
-  /* Opera/IE 8+ */
-
+  background: rgba(50,73,106,0.7);
+}
+.nivo-caption h2 {
+  font-size: 60px;
 }
 .nivo-caption p {
   padding: 5px;
-  margin: 0;
+  margin-top: 15px;
+  font-size: 18px;
+  color: #dfe5f0;
+}
+.nivo-caption .arends-link {
+  font-size: 24px;
+  color: white;
+  margin-top: 20px;
 }
 .nivo-caption a {
   display: inline !important;
@@ -209,23 +214,19 @@
   width: 120px;
   height: auto;
 }
-
-.nivo-directionNav{
-	position: absolute;
-	z-index: 9;
-	width: 980px;
-	left: 50%;
-	margin-left: -490px;
-	top: 175px;
+.nivo-directionNav {
+  position: absolute;
+  z-index: 9;
+  width: 980px;
+  left: 50%;
+  margin-left: -490px;
+  top: 190px;
 }
 
-@media(max-width:979px){
-	.nivo-directionNav,.nivo-caption{
-		left: 0;
-		margin-left: 0;
-	}
-	.slider-wrapper{
-		position: absolute;
-		width: 980px;
-	}
+@media (max-width: 979px) {
+  
+  .slider-wrapper {
+    position: absolute;
+    width: 980px;
+  }
 }

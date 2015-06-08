@@ -13,7 +13,9 @@ a {
 .content {
   position: relative;
   z-index: 2;
-  height: 120px;
+}
+.other-content {
+  min-height: 100%;
 }
 .container {
   width: 980px;
@@ -146,11 +148,14 @@ a {
 .arends p {
   font-size: 18px;
   color: #dfe5f0;
-  position: relative;
-  top: 65px;
 }
 .arends .container {
   position: relative;
+}
+.arends .arend-link {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
 }
 .arend-cell {
   display: table;
@@ -161,23 +166,6 @@ a {
   left: 50%;
   margin-left: -194px;
   top: 0;
-}
-.arend-link {
-  display: table-cell;
-  vertical-align: middle;
-  width: 388px !important;
-  height: 55px !important;
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  font-size: 24px;
-  color: white;
-}
-.arend-link:hover {
-  background: url(../images/button-h.png) no-repeat;
-  border: 1px solid transparent;
 }
 .favorites {
   width: 290px;
@@ -250,73 +238,62 @@ a {
 }
 .modal {
   position: fixed;
-  width: 390px;
+  width: 600px;
   top: 50%;
-  margin-top: -185.5px;
+  margin-top: -219.5px;
   left: 50%;
-  margin-left: -195px;
+  margin-left: -300px;
+  background: url(../images/fav-bg.png);
   z-index: 11;
-  background-color: white;
-  border-top: 3px solid #829bbc;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  border-radius: 22px;
+  padding: 60px 0;
   display: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 .modal fieldset {
-  width: 270px;
+  width: 475px;
   margin: auto;
 }
 .modal .title {
   text-align: center;
-  color: #2d507d;
-  font-size: 40px;
-}
-.modal .title:after {
-  content: "";
-  display: block;
-  width: 330px;
-  height: 20px;
-  background: url(../images/mini-rope.png) no-repeat;
-  margin: auto;
-  margin-top: 10px;
+  font-size: 18px;
+  color: black;
   margin-bottom: 30px;
+  line-height: 1.2;
 }
 .modal input[type="text"] {
-  width: 255px;
-  height: 35px;
-  background-color: #ebf4ff;
+  width: 100%;
+  height: 50px;
+  background-color: white;
   outline: 0;
-  border-top: 1px solid #bac4d3;
-  border-bottom: 1px solid #a7adb5;
-  border-left: 1px solid #e3ebf6;
-  border-right: 1px solid #e3ebf6;
-  font-size: 28px;
-  color: #2d507d;
-  font-family: Tahoma, sans-serif;
-  padding-left: 10px;
-  padding-bottom: 4px;
+  border: 1px solid #a0a0a0;
+  font-size: 18px;
+  color: #3b3b3b;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  padding-left: 23px;
+  font-family: 'MyriadProIt';
 }
 .modal input[type="submit"] {
-  width: 172px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  width: 100%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
   outline: 0;
   border: 0;
-  height: 35px;
+  height: 50px;
   cursor: pointer;
-  font-size: 28px;
-  background: url(../images/send.png) no-repeat;
+  text-transform: uppercase;
+  font-size: 24px;
+  background: url(../images/submit.png);
   color: white;
-  margin: auto;
-  display: block;
-  margin-top: 30px;
+  margin-top: 25px;
   font-family: 'Philosopher';
-  position: relative;
-  right: 11px;
 }
 .modal .input-block {
-  margin-bottom: 22px;
+  margin-bottom: 10px;
 }
 .closed {
   cursor: pointer;
@@ -341,6 +318,34 @@ footer {
   margin-left: -102.5px;
   z-index: 2;
   padding: 8px;
+}
+.footer-container {
+  overflow: hidden;
+  width: 199px;
+  height: 99px;
+  background: url(../images/foot-bg.png) no-repeat;
+  margin: auto;
+  color: #d4d4d4;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 45px;
+  line-height: 1.3;
+  position: relative;
+  z-index: 2;
+}
+.footer-container a {
+  color: #d4d4d4;
+  text-decoration: underline;
+}
+.footer-container a:hover {
+  text-decoration: none;
+}
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -99.5px;
+  z-index: 3;
 }
 .footer-block {
   width: 100%;
@@ -374,7 +379,7 @@ footer {
 }
 .catalog {
   margin-top: 40px;
-  margin-bottom: 120px;
+  margin-bottom: 20px;
 }
 .catalog .container {
   background-color: white;
@@ -812,4 +817,7 @@ footer {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+#dp_swf_engine {
+  display: none !important;
 }

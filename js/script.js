@@ -14,7 +14,7 @@ $( document ).ready(function() {
 	})
 
 
-	$('.arend-link,.leave-app').click(function(){
+	$('.leave-app').click(function(){
     	$('.form-mask').fadeIn(400);
     	$('.leave-modal').fadeIn(400);
     })
