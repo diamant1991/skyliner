@@ -1,0 +1,89 @@
+.bgstretcher {
+	background: #999;
+	overflow: hidden;
+	width: 100%;
+	position: fixed !important;
+	z-index: 1;
+}
+.bgstretcher, .bgstretcher ul, .bgstretcher ul li {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0 !important;
+	bottom: 0;
+}
+.bgstretcher ul, .bgstretcher ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#ssBlock{
+  width: 980px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  left: 0px;
+  padding: 0px;
+  z-index: 2;
+  top: 45px !important;
+  color: #fff;
+}
+
+	#ssHeader{
+		font-size: 60px;
+		width: 490px;
+		margin: auto;
+		background: rgba(50,73,106,0.7);
+		padding-top: 20px;
+		padding-left: 10px;
+		padding-right:10px;
+	}
+	#ssBlock .descr{
+		font-size: 24px;
+		color: #fff;
+		width: 490px;
+		display: block;
+		margin: auto;
+		padding-left: 10px;
+		padding-right:10px;
+		background: rgba(50,73,106,0.7);
+	}
+	#ssUrlWrap{
+		background: rgba(50,73,106,0.7);
+		width: 490px;
+		margin: auto;
+		padding-left: 10px;
+		padding-right:10px;
+		padding-bottom: 20px;
+	}
+	#ssLink{
+		color: #fff;
+		border-bottom:1px dotted #fff;
+		font-size: 18px;
+		display: inline-block;
+		margin-top: 5px;
+	}
+.slide-btn{
+	position: absolute;
+	z-index: 2;
+	width: 980px;
+	top: 190px;
+	left: 50%;
+	margin-left: -490px;
+}
+#ssButtonPrev{
+	display: block;
+   width: 26px;
+   height: 37px;
+   position: absolute;
+   background: url(../images/arrow-left.png) no-repeat;
+   left: 15px;
+}
+#ssButtonNext{
+	display: block;
+   width: 26px;
+   height: 37px;
+   position: absolute;
+   background: url(../images/arrow-right.png) no-repeat;
+   right: 15px;
+}

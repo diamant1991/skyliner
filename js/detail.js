@@ -11,7 +11,7 @@ function opcl(arr, e){
 
 $(document).ready(function () {
 	$('.tabs-list li').click(function() {
-    $('.tabs-list li').removeClass('active');
-    $(this).addClass('active');
-  });
+		$('.tabs-list li').removeClass('active');
+		$(this).addClass('active');
+	});
 })

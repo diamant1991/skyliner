@@ -14,12 +14,12 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/main.less">
-	<link rel="stylesheet" href="css/nivo-slider.css">
+	<link rel="stylesheet" href="css/stretcher.css">
 	<script src="js/less.min.js"></script>
 	<script src="js/modernizr-2.8.3.min.js"></script>	
 </head>
 <body>
-	<div class="slider-wrapper theme-default">
+	<!--<div class="slider-wrapper theme-default">
         <div id="slider" class="nivoSlider">
             <img src="images/slide.jpg" data-thumb="images/slide.jpg" alt="" title="#slide-caption-1">
             <img src="images/slide-2.jpg" data-thumb="images/slide-2.jpg" alt="" title="#slide-caption-2">
@@ -46,7 +46,7 @@
 			<p class="arends-link">Взять в аренду на выходные</p>
 			<p>Эксклюзивное предложение для наших <br> партнеров</p>
 		</div>
-    </div>
+    </div>-->
     <div class="content">
 	    <div class="top-block">
 	    	<div class="container clearfix">
@@ -121,10 +121,34 @@
 	    </div>
 
     </div>
-    <div class="footer-container footer-fixed">
-		2014 © SpringYachts.ru <br>
-		Разработано <a href="#">Dvision</a>
+
+
+
+
+<div id="ssBlock">
+	<div id="ssHeader" class="contentBg">Заголовок 1<span id="ssQout1"></span> <span class="decor"></span></div>
+	<div id="ssDescription" class="contentBg">
+		<span class="descr">
+			Компания Nordmarine является официальным представителем английской верфи Princess Yachts International plc на территории России, Казахстана и Киргизии, а также оказывает полный спектр услуг, связанных с яхтенным консалтингом, куплей-продажей и эксплуатацией яхт любых размеров и производителей.
+		</span>
+			
+		<div id="ssUrlWrap">
+			<a id="ssLink" href="http://www.nordmarine.ru/about/" title="Подробнее" data-style="http://www.nordmarine.ru/about/">Подробнее</a>
+			<span class="ssQout2"></span>
+		</div>
 	</div>
+</div>
+
+<div class="slide-btn">
+	<a href="#" id='ssButtonPrev'></a> 
+	<a href="#" id='ssButtonNext'></a>
+</div>
+    
+
+<div class="footer-container footer-fixed">
+	2014 © SpringYachts.ru <br>
+	Разработано <a href="#">Dvision</a>
+</div>
 
 <div class="form-mask"></div>
 <div class="modal leave-modal">
@@ -162,19 +186,9 @@
 </div>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src="js/jquery.nivo.slider.pack.js"></script>
-<script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider({
-           effect: 'fade',
-           pauseTime: 8000,
-           pauseOnHover: false,
-           prevText: "",
-           nextText: ""
-            })
-
-    });
-</script>
+<script src="js/layout.js"></script>
+<script src="js/bgstretcher.js"></script>
+<script src="js/slider.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
